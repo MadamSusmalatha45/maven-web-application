@@ -32,10 +32,10 @@ sshagent(['88d42484-ca54-4d16-969e-3679400e920b']) {
 */
 }
 }//try block closing
-catch(e){
+/*catch (e){
 slackNotifications(currentBuild.result)
 throw e
-}
+}*/
 finnally{
 slackNotifications(currentBuild.result)
 }
