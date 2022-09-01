@@ -34,7 +34,7 @@ catch (e){
 slackNotifications(currentBuild.result)
 throw e
 }
-finnally{
+finally{
 slackNotifications(currentBuild.result)
 }
 
